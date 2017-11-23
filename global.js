@@ -37,6 +37,7 @@ function property(options) {
         const notify = options && options.notify || false;
         const reflectToAttribute = options && options.reflectToAttribute || false;
         const readOnly = options && options.readOnly || false;
+        const computed = options && options.computed || "";
         let type;
         if (options && options.hasOwnProperty('type')) {
             type = options.type;
@@ -57,6 +58,7 @@ function property(options) {
             notify,
             reflectToAttribute,
             readOnly,
+            computed
         };
     };
 }
