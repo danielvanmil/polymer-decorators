@@ -32,6 +32,7 @@ declare namespace Polymer {
         reflectToAttribute?: boolean;    
         readOnly?: boolean;    
         computed?: string;    
+        observer?: string;    
     }    
     /**    
      * A TypeScript property decorator factory that defines this as a Polymer    
